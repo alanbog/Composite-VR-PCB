@@ -1,0 +1,2158 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a998f25a-30d3-45cd-a96d-71f0bd093661")
+	(paper "A4")
+	(title_block
+		(title "Composite VR Board")
+		(date "2025-11-11")
+		(rev "0")
+		(company "Alan Boguslawski")
+	)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 128.778 119.634)
+		(end 137.668 127.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 091ffb1c-c0eb-4e54-beeb-5a910eeca1c0)
+	)
+	(rectangle
+		(start 144.78 88.9)
+		(end 157.48 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d7264f9-254d-4d0a-ac47-d9fd4359f7a1)
+	)
+	(rectangle
+		(start 196.85 88.9)
+		(end 217.17 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12d43a9d-52d3-4d80-bb17-ee3f48521bbf)
+	)
+	(rectangle
+		(start 143.764 63.246)
+		(end 156.21 75.946)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e789fcb-0b04-499a-ae6b-98502e369049)
+	)
+	(rectangle
+		(start 182.88 60.96)
+		(end 199.39 68.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6de555df-b587-47f8-af9f-812c1e06f498)
+	)
+	(rectangle
+		(start 164.084 62.992)
+		(end 176.53 68.072)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d1760d2-0d8d-4bd6-93fb-d3fb2a6bd9be)
+	)
+	(rectangle
+		(start 182.88 69.85)
+		(end 199.39 77.47)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84dcff15-0ecc-4cea-a223-53adb1ee0bb9)
+	)
+	(rectangle
+		(start 98.806 88.9)
+		(end 118.11 101.6)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86b24510-389a-4255-b955-1425aed1cbf0)
+	)
+	(rectangle
+		(start 128.27 95.504)
+		(end 142.24 106.934)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8a197d1f-7e61-4d4b-9765-da95e0c1a75c)
+	)
+	(rectangle
+		(start 167.64 88.9)
+		(end 185.42 101.346)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2324df5-343f-4c19-90fb-d4f3437a92ea)
+	)
+	(rectangle
+		(start 164.084 71.882)
+		(end 176.53 76.962)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bde59b3a-ccb1-49e6-99c4-6d23cfa5e843)
+	)
+	(rectangle
+		(start 100.33 63.5)
+		(end 119.38 76.2)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c677c913-92b0-4cec-98c4-997f2fe91251)
+	)
+	(rectangle
+		(start 140.208 119.634)
+		(end 160.528 127.254)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ebbce903-7579-45b6-9332-1d82af2e3b1a)
+	)
+	(rectangle
+		(start 108.458 108.204)
+		(end 127.508 119.634)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb8f961b-a4c5-4c19-a82b-29c0890e5efd)
+	)
+	(text "USB 2"
+		(exclude_from_sim no)
+		(at 162.052 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "07b20850-1b41-43e0-82eb-4761ee725437")
+	)
+	(text "USB C Connector\nto External Tracker"
+		(exclude_from_sim no)
+		(at 150.368 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0e9b08b2-8e71-48f3-906d-ff49f3b0e53d")
+	)
+	(text "Controller board for CRT-based VR headset"
+		(exclude_from_sim no)
+		(at 138.43 35.306 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "132bbdfb-9873-4e8d-90af-f1c57a39cd81")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 120.904 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "224b25be-6b6d-40bc-9e8a-0566f1465a5c")
+	)
+	(text "R2R DAC"
+		(exclude_from_sim no)
+		(at 170.18 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "242e479b-bc18-4052-98e4-06f14f031051")
+	)
+	(text "FPGA"
+		(exclude_from_sim no)
+		(at 149.86 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "24a5771d-1dbd-4aa6-8e70-1c94607c0f65")
+	)
+	(text "CRT\nPower"
+		(exclude_from_sim no)
+		(at 133.096 123.444 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "282488ca-f165-4631-b720-6417819687db")
+	)
+	(text "USB C Connector\nto PC"
+		(exclude_from_sim no)
+		(at 108.966 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "41d08504-8089-4775-890d-6aa0f581444d")
+	)
+	(text "IMU/Magnetometer"
+		(exclude_from_sim no)
+		(at 207.01 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5a70ee4f-4704-4fee-8e95-81f6a75e8390")
+	)
+	(text "Left Eye CVBS"
+		(exclude_from_sim no)
+		(at 191.008 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6136291c-6d96-4f34-b511-5d4a95f30dc9")
+	)
+	(text "USB Hub"
+		(exclude_from_sim no)
+		(at 151.13 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7579ec19-177c-4392-905a-10c2cb90add5")
+	)
+	(text "Power\nSwitch"
+		(exclude_from_sim no)
+		(at 135.128 101.854 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7878c34b-5573-4ab9-9f75-c8f7a2e69405")
+	)
+	(text "Power Supplies\n(1.0V, 1.8V, 3.3V)"
+		(exclude_from_sim no)
+		(at 118.11 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7a73d1cd-66e1-4317-b5cd-d444f5cff78a")
+	)
+	(text "R2R DAC"
+		(exclude_from_sim no)
+		(at 170.18 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "80797839-800e-44d7-ad65-f675d7a7d938")
+	)
+	(text "I2C"
+		(exclude_from_sim no)
+		(at 191.516 94.488 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b0781bb-0d8f-4ade-a503-364dc7cc7811")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 131.318 112.014 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a10d0fd9-00fd-454e-b815-7a36d7ccbd77")
+	)
+	(text "RP2040\nMicrocontroller"
+		(exclude_from_sim no)
+		(at 176.53 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab3dd965-a832-49cd-ac11-fea9faddb859")
+	)
+	(text "Right Eye CVBS"
+		(exclude_from_sim no)
+		(at 191.008 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b126c24a-ac15-4e55-93c3-bddd67dee695")
+	)
+	(text "USB 2"
+		(exclude_from_sim no)
+		(at 129.794 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b3377dac-2cf2-45a0-84de-fe642ba55eb8")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 140.208 112.268 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cfb7abb0-226b-46c3-8f41-df3cd8701421")
+	)
+	(text "USB 2"
+		(exclude_from_sim no)
+		(at 148.844 108.966 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d53ed6e8-1a2b-46a0-ba00-61700ddee955")
+	)
+	(text "Composite VR Board"
+		(exclude_from_sim no)
+		(at 139.446 26.416 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "d5d4f3ce-76bf-418f-a447-28520a309834")
+	)
+	(text "HDMI Input"
+		(exclude_from_sim no)
+		(at 109.728 70.104 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d66caa9d-07d5-464a-bd7f-2a801352d7ab")
+	)
+	(text "DVI"
+		(exclude_from_sim no)
+		(at 132.08 68.834 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f851dcc9-8600-4864-8cb9-f7181d7a1712")
+	)
+	(text "JTAG"
+		(exclude_from_sim no)
+		(at 163.068 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe6a51fb-d878-43de-aa06-7e6e707e2687")
+	)
+	(polyline
+		(pts
+			(xy 120.65 100.33) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "067dfdd4-1a63-45d6-9ed4-de50212b9a6d")
+	)
+	(polyline
+		(pts
+			(xy 156.21 73.66) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11c5c5f0-f864-4858-a959-db650076f40b")
+	)
+	(polyline
+		(pts
+			(xy 176.53 73.66) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e0ba7c-b975-41eb-81e2-e27c8958e1c9")
+	)
+	(polyline
+		(pts
+			(xy 166.37 96.52) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1755b73b-a4cf-4685-8b6e-e125a8f14857")
+	)
+	(wire
+		(pts
+			(xy 161.29 185.42) (xy 161.29 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e3e551-da64-4843-9abd-cbbb5da0bf79")
+	)
+	(polyline
+		(pts
+			(xy 132.588 106.934) (xy 132.588 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a095897-11a7-4549-afbc-daf7d5d5261d")
+	)
+	(polyline
+		(pts
+			(xy 143.51 90.17) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a529e67-6e88-448a-929e-9d7ad2e90ab2")
+	)
+	(polyline
+		(pts
+			(xy 148.59 118.11) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b88a56-7304-4792-aff7-34d0bc7ed076")
+	)
+	(polyline
+		(pts
+			(xy 127 99.06) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c1eeb9-47bd-48cd-b2c2-57ec67759ccf")
+	)
+	(polyline
+		(pts
+			(xy 157.48 95.25) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "346f1e3a-1706-43ef-bd92-abcf1a9fcc0e")
+	)
+	(polyline
+		(pts
+			(xy 151.13 76.2) (xy 152.4 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38f063d2-542b-4496-a8bb-c3d7f4f50a7f")
+	)
+	(polyline
+		(pts
+			(xy 176.53 83.82) (xy 176.53 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcc5c15-4cdf-466b-81d2-afbccfdf1b40")
+	)
+	(polyline
+		(pts
+			(xy 185.42 95.25) (xy 186.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40a9c969-63d8-4a36-8502-8fca7407b9db")
+	)
+	(polyline
+		(pts
+			(xy 142.24 97.79) (xy 143.51 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45019f28-fc76-4304-a6f4-bad2cf71991b")
+	)
+	(polyline
+		(pts
+			(xy 120.65 107.95) (xy 121.92 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4504455e-8ecb-4c97-bf54-312811633afd")
+	)
+	(polyline
+		(pts
+			(xy 143.51 92.71) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480772ee-35e2-4876-b13d-b4cd4adf0f60")
+	)
+	(polyline
+		(pts
+			(xy 157.48 95.25) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5260d757-e965-40d6-9c97-72d4c7609613")
+	)
+	(polyline
+		(pts
+			(xy 149.86 100.33) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ac8252-7124-49af-b10d-56605e2d091c")
+	)
+	(polyline
+		(pts
+			(xy 132.588 110.49) (xy 132.588 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "585600ee-4798-4f74-8512-793ac04b7ed9")
+	)
+	(polyline
+		(pts
+			(xy 141.478 110.744) (xy 141.478 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58908592-e8ec-495d-97fc-facc12ad3852")
+	)
+	(polyline
+		(pts
+			(xy 131.318 117.856) (xy 132.588 119.126)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59eaff47-fe96-4f92-bc1f-58112a93ab5f")
+	)
+	(polyline
+		(pts
+			(xy 119.38 106.68) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bf2f1c7-4e1a-4de9-814c-a6a8e461093c")
+	)
+	(polyline
+		(pts
+			(xy 132.588 119.126) (xy 133.858 117.856)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4b42b6-447b-4317-8ecc-327e756f1e72")
+	)
+	(polyline
+		(pts
+			(xy 142.24 97.79) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60f16216-0474-45f9-9300-3b5567dc2d69")
+	)
+	(polyline
+		(pts
+			(xy 120.65 100.33) (xy 120.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d5e629-bd9a-4138-aacd-ff11583bbb88")
+	)
+	(polyline
+		(pts
+			(xy 162.56 63.5) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a944981-9399-42d6-b671-1c688c1ba94c")
+	)
+	(polyline
+		(pts
+			(xy 118.11 91.44) (xy 119.38 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6efe2325-2ffd-402d-b2d8-7b8cb1ec5b9c")
+	)
+	(polyline
+		(pts
+			(xy 142.24 71.12) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc6322e-2188-4cb6-882e-4233f31468a1")
+	)
+	(wire
+		(pts
+			(xy 151.13 185.42) (xy 151.13 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8c2609-4439-47c0-b14e-1e367d130093")
+	)
+	(polyline
+		(pts
+			(xy 176.53 64.77) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dd3410-d970-4c04-8a3d-650bd729b943")
+	)
+	(polyline
+		(pts
+			(xy 181.61 72.39) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88b4ce09-73e0-4b5f-baa8-95cf69fc0e6d")
+	)
+	(polyline
+		(pts
+			(xy 162.56 74.93) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89873a5f-3bba-4e09-87b4-e52d9c3094ab")
+	)
+	(polyline
+		(pts
+			(xy 162.56 66.04) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a41eb4d-06cb-42e1-97f8-2e8bc6995d5e")
+	)
+	(polyline
+		(pts
+			(xy 119.38 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fd19259-f346-42ec-aee3-ce16e3046213")
+	)
+	(polyline
+		(pts
+			(xy 166.37 93.98) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ac3e1b-dd6c-451a-9a62-6c1443255529")
+	)
+	(polyline
+		(pts
+			(xy 148.59 101.6) (xy 149.86 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3a9ca0-cf39-44b9-b977-90fb05dfde01")
+	)
+	(polyline
+		(pts
+			(xy 141.478 119.38) (xy 142.748 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f090a4f-83da-46bc-9248-29d54101b3e8")
+	)
+	(polyline
+		(pts
+			(xy 119.38 69.85) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a605a47d-2356-4934-a8a2-2e4d17c044bc")
+	)
+	(polyline
+		(pts
+			(xy 151.13 76.2) (xy 151.13 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9796fc3-50de-4176-9c75-706d2d88382d")
+	)
+	(polyline
+		(pts
+			(xy 118.11 91.44) (xy 119.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa46f7ac-b8aa-4b1f-9015-35b366fa744b")
+	)
+	(polyline
+		(pts
+			(xy 118.11 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa4e0f5-fadd-4fd7-8da2-284cb4aea4f1")
+	)
+	(polyline
+		(pts
+			(xy 181.61 66.04) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1de89f8-ff20-450a-8ddf-1a05e1161ccc")
+	)
+	(polyline
+		(pts
+			(xy 185.42 95.25) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9cab21-3f09-4316-b058-d8233f1f3393")
+	)
+	(polyline
+		(pts
+			(xy 181.61 74.93) (xy 182.88 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc75d53d-d56a-40ca-a644-b2beb3e25c28")
+	)
+	(polyline
+		(pts
+			(xy 185.42 95.25) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be8ab273-1fa3-4fa7-b3f6-a5492dc87697")
+	)
+	(polyline
+		(pts
+			(xy 149.86 100.33) (xy 149.86 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed5d931-63c5-4f4e-b147-5e15b47fe4f1")
+	)
+	(polyline
+		(pts
+			(xy 142.24 68.58) (xy 143.51 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c648f375-1d8c-4d2d-8a93-2e25bb333605")
+	)
+	(polyline
+		(pts
+			(xy 157.48 95.25) (xy 158.75 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd28f6b-12b1-4156-8a81-ee30fe3c2db3")
+	)
+	(polyline
+		(pts
+			(xy 141.478 106.934) (xy 141.478 110.744)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2997770-b12e-497f-9d2e-e99d9ca380dd")
+	)
+	(polyline
+		(pts
+			(xy 149.86 77.47) (xy 151.13 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d430b2f3-5626-4a27-99de-15c5c4b8d29a")
+	)
+	(polyline
+		(pts
+			(xy 118.11 91.44) (xy 119.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dea88dc8-538d-4705-8a44-bfa73dd6c56d")
+	)
+	(polyline
+		(pts
+			(xy 149.86 119.38) (xy 151.13 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e14f2b26-35eb-484f-ac05-7619bc25adea")
+	)
+	(polyline
+		(pts
+			(xy 140.208 118.11) (xy 141.478 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e410cbee-bf3e-47a5-bbca-42c33b23d416")
+	)
+	(polyline
+		(pts
+			(xy 181.61 63.5) (xy 182.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d4b1de-1d76-4609-89f0-9a562b9f129a")
+	)
+	(polyline
+		(pts
+			(xy 127 101.6) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e73de35d-3891-48a8-ab83-1810b69c3fcf")
+	)
+	(polyline
+		(pts
+			(xy 156.21 64.77) (xy 163.83 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc5e4e7-7559-4f24-8430-7b4ca5a35868")
+	)
+	(wire
+		(pts
+			(xy 140.97 185.42) (xy 140.97 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f092bb8d-b4e5-4465-9a59-c018709b86b9")
+	)
+	(polyline
+		(pts
+			(xy 195.58 93.98) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0a175aa-818c-4171-9be6-500a47832b59")
+	)
+	(wire
+		(pts
+			(xy 130.81 185.42) (xy 130.81 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f86fc2-878a-41d3-9cf0-7861528217a4")
+	)
+	(polyline
+		(pts
+			(xy 195.58 96.52) (xy 196.85 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9f7706c-4218-4597-b2e8-93ce38b8ee8b")
+	)
+	(polyline
+		(pts
+			(xy 151.13 83.82) (xy 176.53 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1518ed-999a-4928-9bd5-f53b848158b4")
+	)
+	(polyline
+		(pts
+			(xy 142.24 97.79) (xy 143.51 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc33630d-96c0-4d05-a75e-a30d8ee37155")
+	)
+	(polyline
+		(pts
+			(xy 162.56 72.39) (xy 163.83 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffaad277-5551-40e4-b7f2-70b12941f52f")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 130.81 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "12456eda-6f5a-4548-8741-0c7775cbd97a")
+		(property "Reference" "H1"
+			(at 133.35 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 133.35 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" ""
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 130.81 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d6a7c1e-ec9e-40d8-adeb-f4d6d33edb57")
+		)
+		(instances
+			(project ""
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 161.29 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "3444f121-30b4-47a9-89f9-8c9aa620d592")
+		(property "Reference" "H4"
+			(at 163.83 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 163.83 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 161.29 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09147b82-d189-4275-b6f9-f0919216045a")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "426e4576-f483-47e8-bf3f-91a4a902ff56")
+		(property "Reference" "#PWR03"
+			(at 151.13 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fec78cc6-03b6-4466-8938-70370124d267")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "547fa2a1-2e49-47e3-aa27-b72db6d526e1")
+		(property "Reference" "#PWR01"
+			(at 130.81 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7830518-fe2e-4354-b41d-ed5416b35967")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.97 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b385daf5-a0bb-4550-8139-c6c9db59c4f7")
+		(property "Reference" "#PWR02"
+			(at 140.97 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72d6c10d-2f2e-4ff4-b691-ab498d9a1e1a")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 140.97 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "d698885d-4317-4100-857c-873f9fe24082")
+		(property "Reference" "H2"
+			(at 143.51 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 143.51 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e120623-ceaa-4214-9018-b5842bace8c8")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 151.13 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "dc90016a-c635-40fd-9c26-cb298fd871fe")
+		(property "Reference" "H3"
+			(at 153.67 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 153.67 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad"
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" ""
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" ""
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" ""
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "-"
+			(at 151.13 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d606669-1874-4ebf-a7a0-df01cc002694")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff670674-9005-4a0a-8061-d9ad22dc52a2")
+		(property "Reference" "#PWR04"
+			(at 161.29 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 190.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb8b3a67-a4a7-4229-b07a-1c3407e7a504")
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 119.38)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "34ca16e5-9b4b-4e1f-86aa-9cb152c763aa")
+		(property "Sheetname" "HDMI/DACs"
+			(at 27.94 118.6684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "hdmi-dacs.kicad_sch"
+			(at 27.94 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 54.61)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6f4f4273-4842-4b8f-a091-fdf29ef2fa42")
+		(property "Sheetname" "Power/USB_Hub"
+			(at 27.94 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 27.94 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(page "1")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 97.79)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b732f2ea-16b7-4d21-af66-6202bb8efa04")
+		(property "Sheetname" "RP2040/IMU"
+			(at 27.94 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "rp2040.kicad_sch"
+			(at 27.94 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 27.94 76.2)
+		(size 30.48 13.97)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f46c5704-b68e-45a8-957d-86520a20e885")
+		(property "Sheetname" "FPGA"
+			(at 27.94 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 27.94 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "composite_vr"
+				(path "/a998f25a-30d3-45cd-a96d-71f0bd093661"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
